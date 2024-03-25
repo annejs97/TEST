@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainActivityLogin"
+    android:background="@drawable/abstrakpink">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="65dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textbeauty"
+            android:layout_height="wrap_content"
+            android:text="Beauty me"
+            android:textSize="20sp"
+            android:fontFamily="@font/alice_regular"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="287dp"
+            android:layout_height="124dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignTop="@id/textbeauty"
+            android:src="@drawable/img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/alata_regular"
+            android:text="Log In"
+            android:textSize="32sp" />
+        <!--<androidx.cardview.widget.CardView
+            android:layout_width="275dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="205dp"
+            app:cardCornerRadius="100dp"
+            app:cardBackgroundColor="#207DEB"
+            android:id="@+id/facebook_btn">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/img_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="continue with Facebook"
+                    android:fontFamily="@font/alata_regular"
+                    android:background="@null"
+                    android:textSize="17sp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="275dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="100dp"
+            app:cardBackgroundColor="#C10C0C"
+            android:id="@+id/google_btn">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="continue with Google"
+                    android:fontFamily="@font/alata_regular"
+                    android:background="@null"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="145dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="400dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/alata_regular"
+            android:text="or"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="145dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="400dp"
+            android:background="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="#9FFF"
+            app:cardCornerRadius="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_person_outline_24" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/alata_regular"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginStart="10dp"
+                    android:textColorHint="#9E9D9D"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="275dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#9FFF"
+            app:cardCornerRadius="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_key_24" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/alata_regular"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#9E9D9D"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ButtonLogin"
+            android:layout_width="175dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FF8EFD"
+            app:cardCornerRadius="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/alata_regular"
+                android:text="Log In"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="17sp"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="660dp"
+        app:cardBackgroundColor="#90ffffff">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata_regular"
+                android:text="Belum memiliki akun?" />
+
+            <TextView
+                android:id="@+id/bagsignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata_regular"
+                android:text=" Let's Begin"
+                android:textColor="#D373DD" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

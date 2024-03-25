@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Shop"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        android:id="@+id/cartmenu" />
+    <item android:title="Review"
+        android:icon="@drawable/ic_baseline_reviews_24"
+        android:id="@+id/reviewmenu"
+        android:iconTint="#FD84AF"/>
+    <item android:title="Scan"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:id="@+id/scannermenu"/>
+    <item android:title="profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/profilemenu"/>
+</menu>

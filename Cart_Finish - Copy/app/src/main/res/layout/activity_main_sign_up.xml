@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstrakpink"
+    tools:context=".views.MainActivitySignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="231dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="67dp"
+            android:gravity="center_horizontal|top"
+            android:text="Sign Up"
+            android:fontFamily="@font/almendra_reguler"
+            android:textSize="50sp"/>
+        <!-- join with us -->
+        <TextView
+            android:id="@+id/join_with_u"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="119dp"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="center_horizontal|top"
+            android:text="Join With Us"
+            android:textSize="20sp"/>
+
+        <!-- Nama Depan -->
+        <!--<EditText
+            android:id="@+id/nama_depan"
+            android:layout_width="139dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="169dp"
+            android:hint="@string/nama_depan"
+            android:gravity="top"
+            android:fontFamily="@font/alata_regular"
+            android:textSize="15sp"
+            android:textColorHint="#000000"
+            android:background="@null"
+            android:inputType="textPersonName"/>-->
+
+        <!-- Line 1 -->
+        <!--<View
+            android:id="@+id/line1"
+            android:layout_width="143dp"
+            android:layout_height="1.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/line1"/>-->
+
+        <!-- Nama Belakang -->
+        <!--<EditText
+            android:id="@+id/nama_belakang"
+            android:layout_width="139dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="215dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="169dp"
+            android:hint="@string/nama_belakang"
+            android:textColorHint="@color/black"
+            android:gravity="top"
+            android:background="@null"
+            android:textSize="15sp"
+            android:fontFamily="@font/alata_regular"
+            android:inputType="textPersonName"/>-->
+        <!-- Line 2 -->
+        <!--<View
+            android:id="@+id/line2"
+            android:layout_width="148dp"
+            android:layout_height="1.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/line1" />-->
+        <!-- Username -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="328dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="213dp"
+            android:hint="Username"
+            android:textColorHint="@color/black"
+            android:gravity="top"
+            android:textSize="15sp"
+            android:background="@null"
+            android:fontFamily="@font/alata_regular"
+            android:inputType="text"/>
+
+        <!-- Line 3 -->
+        <View
+            android:id="@+id/line_3"
+            android:layout_width="338dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="233dp"
+            android:background="@drawable/line1" />
+        <!-- Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="336dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="252dp"
+            android:hint="Email"
+            android:gravity="top"
+            android:textColorHint="@color/black"
+            android:textSize="15sp"
+            android:background="@null"
+            android:fontFamily="@font/alata_regular"
+            android:inputType="textEmailAddress"/>
+
+        <!-- Line 4 -->
+        <View
+            android:id="@+id/line_4"
+            android:layout_width="338dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="272dp"
+            android:background="@drawable/line1"/>
+
+        <!-- Nomor Handphone -->
+        <!--<EditText
+            android:id="@+id/nomor_hp"
+            android:layout_width="334dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="289dp"
+            android:fontFamily="@font/alata_regular"
+            android:gravity="top"
+            android:hint="@string/nomor_hp"
+            android:textColorHint="@color/black"
+            android:background="@null"
+            android:textSize="15sp"
+            android:inputType="phone"
+            />-->
+
+        <!-- Line 5 -->
+        <!--<View
+            android:id="@+id/line_5"
+            android:layout_width="338dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="313dp"
+            android:background="@drawable/line1"/>-->
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="329dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="325dp"
+            android:hint="Password"
+            android:textSize="15sp"
+            android:background="@null"
+            android:textColorHint="#000000"
+            android:gravity="top"
+            android:fontFamily="@font/alata_regular"
+            android:inputType="textPassword"/>
+
+        <!-- Line 6 -->
+        <View
+            android:id="@+id/line_6"
+            android:layout_width="338dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="349dp"
+            android:background="@drawable/line1" />
+
+        <!-- Konfirmasi Password -->
+        <EditText
+            android:id="@+id/password_conf"
+            android:layout_width="329dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="360dp"
+            android:hint="Konfirmasi Password"
+            android:textSize="15sp"
+            android:background="@null"
+            android:textColorHint="#000000"
+            android:gravity="top"
+            android:fontFamily="@font/alata_regular"
+            android:inputType="textPassword"/>
+
+
+        <!-- Line 7 -->
+        <View
+            android:id="@+id/line_7"
+            android:layout_width="338dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="385dp"
+            android:background="@drawable/line1" />
+
+        <!-- Rectangle 3 -->
+        <ImageButton
+            android:id="@+id/rectangle_3"
+            android:layout_width="162dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/rectangle2" />
+
+        <!-- Daftar -->
+        <TextView
+            android:id="@+id/daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="166dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="555dp"
+            android:text="Daftar"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#FEA1BE"
+            android:fontFamily="@font/alata_regular"/>
+
+
+        <!-- Sudah memiliki akun? Log-in Sekarang -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="660dp"
+            app:cardBackgroundColor="#FFA2BF">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sudah memiliki akun?"
+                    android:fontFamily="@font/alata_regular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Log-in Sekarang"
+                    android:fontFamily="@font/alata_regular"
+                    android:id="@+id/textLogin"
+                    android:textColor="#FF0000"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <!-- Sign up -->
+</ScrollView>

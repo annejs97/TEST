@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Beagirl_Project</string>
+    <string name="webclientid">223658491097-861ltl41ea3dqg5va9pff96r2406gp68.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="beauty_me">Beauty me,</string>
+    <string name="reviewproduct_1"><![CDATA[Produk ini sangat efektif untuk kulit saya yang kering & sensitif, langsung terhidrasi dan kulit menjadi tidak mudah berjerawat dan halus.]]></string>
+    <string name="sign_up">Sign up</string>
+    <string name="join_with_us">join with us</string>
+    <string name="nama_depan">Nama Depan</string>
+    <string name="nama_belakang">Nama Belakang</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="nomor_hp">Nomor Handphone</string>
+    <string name="password">Password</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="pesanan_saya">Pesanan Saya</string>
+    <string name="history">Riwayat Pesanan</string>
+    <string name="reviewer2">Produk ini sangat calming untuk kulit saya yang kering dan sensitif. Teksturnya juga gel ringan dan memiliki sensasi dingin.</string>
+</resources>
